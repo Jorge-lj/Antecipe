@@ -1,0 +1,37 @@
+# Lista de Prompts do Projeto ANTECIPE
+
+1. **Criação do projeto**  
+   > "Como posso estruturar esse projeto com Java 21, Spring Boot e Maven para análise de recebíveis de FIDC?"
+
+2. **Desenvolvimento do endpoint da API**  
+   > "Como criar o endpoint `POST /api/recebiveis/analisar` para receber um CSV, processar e retornar JSON?"
+
+3. **Leitura e conversão do CSV**  
+   > "Como posso implementar a classe `RecebivelCsvConverter` para ler o CSV, tratar valores/datas e criar os objetos?"
+
+4. **Implementação das validações**  
+   > "Como implementar a classe `ValidacaoService` para validar documento, tipo, valor, cadastro e vencimento?"
+
+5. **Leitura do arquivo de configuração**  
+   > "Como implementar a classe `ConfiguracaoService` para carregar as regras e parâmetros do arquivo `validadores.json`?"
+
+6. **Consulta da situação cadastral**  
+   > "Como ler o arquivo `cnpj_situacao_mock.csv` e integrar a situação cadastral dos sacados na validação?"
+
+7. **Cálculo do valor antecipado**  
+   > "Como implementar o `PrecificacaoService` para calcular o valor antecipado usando desconto simples e taxas da configuração?"
+
+8. **Geração do relatório**  
+   > "Como implementar o `RelatorioService` para consolidar totais, aprovações, valores e concentração por sacado?"
+
+9. **Correção das inconsistências**  
+   > "Como revisar e corrigir inconsistências entre os serviços, regras, `validadores.json` e os CSVs?"
+
+10. **Testes e validação da API**  
+    > "Como testar a aplicação via Maven e validar o endpoint com um CSV real (status, JSON e cálculos)?"
+
+11. **Tratamento de erros e codificação**  
+    > "Como tratar dados inválidos, campos vazios, datas incorretas e problemas de charset nos CSVs e na API?"
+
+12. **Revisão geral do projeto**  
+    > "vamos faz uma revisão geral no ANTECIPE para garantir que todos os componentes funcionem integrados e sem falhas."
